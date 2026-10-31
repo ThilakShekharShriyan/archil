@@ -1,0 +1,16 @@
+{
+  "name": "archil-hackathon",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.19"
+  },
+  "scripts": {
+    "example": "node --env-file=.env.local examples/persistent-sandbox.mjs",
+    "test": "node --test examples/agents.test.mjs",
+    "demo": "node --env-file=.env.local examples/quarantine.mjs"
+  },
+  "dependencies": {
+    "disk": "^1.10.0"
+  }
+}
